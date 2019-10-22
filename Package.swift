@@ -9,13 +9,13 @@ let package = Package(
         .iOS(.v7),
         .macOS(.v10_9),
         .tvOS(.v9),
-        .watchOS(.v2),
+        .watchOS(.v2)
     ],
     products: [
         // Products define the executables and libraries produced by a package, and make them visible to other packages.
         .library(
             name: "Mocker",
-            targets: ["Mocker"]),
+            targets: ["Mocker"])
     ],
     dependencies: [],
     targets: [
@@ -24,6 +24,6 @@ let package = Package(
         .target(
             name: "Mocker",
             dependencies: [],
-            path: "Sources"),
-    ],
+            path: "Sources")
+    ]
 )
